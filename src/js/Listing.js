@@ -29,7 +29,7 @@ class Listing extends Component {
 					className="listing__picture"
 				/>
 				<div>
-					<p>{city}, Australia</p>
+					<p>{city}, Quintana Roo</p>
 				</div>
 				<div>
 					<p>

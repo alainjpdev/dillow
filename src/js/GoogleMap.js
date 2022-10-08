@@ -51,9 +51,11 @@ class GoogleMap extends Component {
 		const { longitude, latitude } = activeListing;
 
 		this.map = new google.maps.Map(this.refs.map, {
-			center: { lat: latitude + 0.004, lng: longitude - 0.003 },
+			// center: { lat: latitude + 0.004, lng: longitude - 0.003 },
+			center: { lat: latitude, lng: longitude },
+
 			mapTypeControl: false,
-			zoom: 14.5
+			zoom: 16.5
 		});
 
 		this.createMarkers(listings);

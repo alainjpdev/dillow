@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../img/house-location-pin.svg';
+import image from '../img/house-location-pin.png';
 import Filter from './Filter';
 import '../ListingHeader.css';
 
@@ -15,7 +15,7 @@ const ListingHeader = ({
 				src={image}
 				alt="Header Menu"
 			/>
-			<h1>PROPERTY LISTINGS</h1>
+			{/* <h1>PROPERTY LISTINGS</h1> */}
 		</div>
 
 		<Filter
