@@ -1,7 +1,8 @@
 {
   "name": "maps-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage" : "https://alainjpdev.github.io/dillow/",
   "dependencies": {
     "accounting": "^0.4.1",
     "ease": "^0.1.0",
